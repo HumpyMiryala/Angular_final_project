@@ -1,0 +1,75 @@
+<div id="a2">
+  <br>
+<br><header align="center">Angular(modules)</header>
+<br><br>
+</div>
+<body>
+  <section>
+          <button mat-icon-button color="accent" aria-label="a menu icon">
+            <mat-icon>menu</mat-icon>
+          </button>   
+
+          <button mat-icon-button color="accent" aria-label="vertical three dot icon">
+            <mat-icon>more_vert</mat-icon>
+          </button>
+
+          <button mat-icon-button color="accent" aria-label="home icon">
+            <mat-icon>home</mat-icon>
+          </button>
+          
+          <button mat-icon-button  color="accent" aria-label="open in new tab icon">
+            <mat-icon>open_in_new</mat-icon>
+          </button>
+    
+        </section>
+</body>
+
+<div><mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <div id="a1">
+
+      <a id="a1" mat-list-item [routerLink]="'/accounts'"> HTML & CSS </a>
+      <a id="a1" mat-list-item [routerLink]="'/create-account'"> Reflection(HTML & CSS)</a>
+      <a id="a1" mat-list-item [routerLink]="'/contacts'"> Bootstrap </a>
+      <a id="a1" mat-list-item [routerLink]="'/create-contact'"> Javascript </a>
+      <a id="a1" mat-list-item [routerLink]="'/activities'"> Javascript in HTML & ES6 </a>
+      <a id="a1" mat-list-item [routerLink]="'/activities'">Reflection(HTML, CSS, Javascript)</a>
+      <a id="a1" mat-list-item [routerLink]="'/accounts'"> Introduction to AJAX & JSON </a>
+      <a id="a1" mat-list-item [routerLink]="'/create-account'"> Typescript </a>
+      <a id="a1" mat-list-item [routerLink]="'/contacts'"> Angular JS</a>
+      <a id="a1" mat-list-item [routerLink]="'/create-contact'"> Angular architecture</a>
+      <a id="a1" mat-list-item [routerLink]="'/activities'"> Angular components </a>
+      <a id="a1" mat-list-item [routerLink]="'/create-activity'"> Angular directives </a>
+      <a id="a1" mat-list-item [routerLink]="'/accounts'"> Services </a>
+      <a id="a1" mat-list-item [routerLink]="'/create-account'"> Dependency injection </a>
+      <a id="a1" mat-list-item [routerLink]="'/contacts'"> REST API </a>
+      <a id="a1" mat-list-item [routerLink]="'/create-contact'"> Routing </a>
+      
+
+     
+    </div>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 88vh;">
+      <mat-card >
+        <mat-card-header><b>Quizz Section</b></mat-card-header>
+        <p>Q1</p>
+        <p>Q2</p>
+      </mat-card>
+      <mat-card><b>Content Section</b></mat-card>
+      <mat-card><b>Assignment Section</b></mat-card>
+
+      
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+</div>
+<div>
+  <footer>
+    <h3>
+        @Copyright reserved to Humpy
+    </h3>
+  </footer>
+</div>
